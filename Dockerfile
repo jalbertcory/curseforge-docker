@@ -5,6 +5,9 @@ RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add
 RUN apt update
 RUN apt install -y --no-install-recommends unzip fuse dos2unix
 
+# force the update
+RUN echo 1
+
 ADD https://curseforge.overwolf.com/downloads/curseforge-latest-linux.zip /tmp/curseforge.zip
 
 RUN unzip /tmp/curseforge.zip -d /curseforge
