@@ -19,5 +19,6 @@ curseforge expects it to be in for auto detection.
 1) Select your game version (Retail, BCC, WOTLKC, etc)
 1) Click the refresh button to load the currently installed addons
     1) This button is all the way to the right of the row with "Sync" and looks like two arrows in a circle
+    1) This may take a long time initially (a few minutes), but then all your existing addons should show up
 1) Update and find new addons as you please
 1) Stop the container once you are done (start it when you want to update again)
