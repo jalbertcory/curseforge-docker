@@ -4,4 +4,5 @@ docker push growlithe/curseforge-docker:latest
 docker build . -t growlithe/curseforge-docker:latest && docker push growlithe/curseforge-docker:latest
 
 docker run -p 6080:80 -v "//c/Program Files (x86)/World of Warcraft":"/root/.wine/drive_c/Program Files/World of Warcraft/" growlithe/curseforge-docker:latest
+docker run -p 6080:80 -v "//d/Blizzard/World of Warcraft":"/root/.wine/drive_c/Program Files/World of Warcraft/" growlithe/curseforge-docker:latest
 docker run -p 6080:80 growlithe/curseforge-docker:latest

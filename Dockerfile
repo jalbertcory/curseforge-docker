@@ -6,13 +6,13 @@ RUN apt update
 RUN apt install -y --no-install-recommends unzip fuse dos2unix
 
 # force the update
-RUN echo 1
+RUN echo 2
 
 ADD https://curseforge.overwolf.com/downloads/curseforge-latest-linux.zip /tmp/curseforge.zip
 
 RUN unzip /tmp/curseforge.zip -d /curseforge
 
-WORKDIR /curseforge
+WORKDIR /curseforge/build
 
 RUN chmod a+x CurseForge*AppImage
 

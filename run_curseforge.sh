@@ -1,2 +1,2 @@
 #!/bin/bash
-/curseforge/CurseForge* --appimage-extract-and-run --no-sandbox
+/curseforge/build/CurseForge* --appimage-extract-and-run --no-sandbox
